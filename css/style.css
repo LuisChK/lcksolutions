@@ -1,33 +1,60 @@
-.gridhomeheader{
-display: grid;
-grid-gap: 10px;
-grid-template-columns: 1fr;
-grid-template-rows: 150px 100px 207px;
-grid-template-areas: "logo" 
-                    "menu"
-                    "imagen";
+body{ background-size: cover;
+    background-image: url(../assets/imgs/back1.jpg);
+    min-height: 100vh;
+    max-width: 1200;
+} 
 
-}
-
-.headtitulo{
-    grid-area: logo;
+.contefooter{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1000px 200px;
+    background-color: rgb(30, 30, 142);
+    grid-row: auto;
     
     }
 
-.imagen__principal{
-    grid-area: imagen;
-    width: 1000px;
-    border-radius: 10px;
+    .contefooter .contenombre{
+        grid-column: 1;
+        grid-row: auto;
+        text-align: center;
+    background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, 
+    rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%,
+rgba(187,187,187,1) 100.2% );
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(243, 240, 240);
+    }
+.contehead{ 
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 100px 263px;
+    grid-template-areas: "logo" "menu" "imagen";
+    animation-name: FadeIn;
+animation-duration: 3s;
+transition-timing-function: linear;
 }
 
-.header__menu{
+.contehead .logo{
+    grid-area: logo;
+    
+}
+@keyframes FadeIn{
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.contehead .menu{
     grid-area: menu;
-    padding-top: 90px;
-    align-items: stretch;
-    justify-items: stretch;
+    
 
 }
-nav.header__menu ul {   
+
+nav.header__menu ul {
     display: flex;
     list-style: none;
     padding: 05px;
@@ -57,22 +84,512 @@ nav.header__menu ul li a:hover{
 font-family: Arial, Helvetica, sans-serif;
 }
 
+.imagenprin{
+    grid-area: imagen;
+    width: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 
-.artihome{
+.contehead .imagen{
+    grid-area: imagen;
+    width: 1000px;
+    height: auto;
+    
+    border-radius: 10px;
+    grid-row-gap: 10px;
+}
+
+.contemain{
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 150px 200px 200px;
-    grid-template-areas: "pres" "main" "main2";
-
+    grid-gap: 20px;
+    grid-template-columns: 700px 300px;
+    grid-template-rows: 100px 300px 300px;
+    grid-template-areas: "pres" "web" "it";
+    align-items: center;
+    justify-items: center;
+    animation-name: FadeIn;
+    animation-duration: 3s;
+    transition-timing-function: linear;
 
 }
-.artihome .artihome__presentacion{
+.contemain .pres{
+    grid-area: pres;
+    color: rgb(69, 69, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 1000px;
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+}
+
+.contemain .mainweb{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.imagenweb{
+    align-self: start;
+    justify-self: start;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.contemain .mainit{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.imagenit{
+    align-self: start;
+    justify-self: start;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.contemain .main{
+    grid-area: web;
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%, 
+        rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% ); 
+        width: 500px;
+        height: 120px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-left: 50px;
+        margin-top: 15px;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(243, 240, 240);
+        font-style: italic;
+        text-align: center;
+        border: 50px;
+        border-radius: 10px;
+        animation-name: FadeIn;
+    animation-duration: 3s;
+    transition-timing-function: linear;
+}
+.contemain .main2{
+    grid-area: it;
+    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+    width: 500px;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+    animation-name: FadeIn;
+    animation-duration: 3s;
+    transition-timing-function: linear;
+}
+
+
+    .conteweb{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 700px 700px;
+        grid-template-rows: 150px 300px 300px 300px;
+        grid-template-areas: "pres" "main1" "main2" "main3";
+        animation-name: FadeIn;
+        animation-duration: 3s;
+        transition-timing-function: linear;
+    
+    }
+    .conteweb .webpres{
+        grid-area: pres;
+        color: rgb(69, 69, 241);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: larger;
+        width: 1200px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-align: justify;
+    }
+
+.conteweb .webimagen{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.web__imagen1{
+    align-self: start;
+    justify-self: start;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+    .conteweb .webmain{
+        grid-area: main1;
+        background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+    width: 500px;
+    height: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+    }
+    
+    .conteweb .webimagen2{
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .web__imagen2{
+        align-content: end;
+        justify-content: end;
+        margin-left: 400px;
+        width: 200px;
+        height: 200px;
+    
+    }
+    
+
+    .conteweb .webmain2{
+        grid-area: main2;
+        grid-column: 2;
+        grid-row: 3;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  
+        rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+        width: 500px;
+        height: 120px;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(243, 240, 240);
+        font-style: italic;
+        text-align: center;
+        border: 50px;
+        border-radius: 10px;
+
+    }
+
+    .conteweb .webimagen3{
+        grid-column: 2;
+        grid-row: 4;
+    }
+    
+    .web__imagen3{
+        align-self: start;
+        justify-self: start;
+        width: 200px;
+        height: 200px;
+    
+    }
+
+
+    .conteweb .webmain3{
+        grid-area: main3;
+        background-image: linear-gradient( 135deg, #5EFCE8 10%,
+         #736EFE 100%);
+        width: 500px;
+        height: 120px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(243, 240, 240);
+        font-style: italic;
+        text-align: center;
+        border: 50px;
+        border-radius: 10px;
+    }
+    
+.conteit{
+    display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 700px 700px;
+        grid-template-rows: 150px 200px 200px 200px;
+        grid-template-areas: "pres" "main1" "main2" "main3";
+        animation-name: FadeIn;
+        animation-duration: 3s;
+        transition-timing-function: linear;
+}
+.conteit .itpres{
 grid-area: pres;
+color: rgb(69, 69, 241);
+margin-top: 40px;
+margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 1200px;
+    text-align: justify;
+}
+
+.conteit .itimagen{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.it__imagen{
+    align-content: end;
+    justify-content: end;
+    margin-left: 400px;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.conteit .itmain{
+    grid-area: main1;
+    grid-column: 2;
+    grid-row: 2;
+    background-image: linear-gradient( 65.5deg, 
+     rgba(23,205,205,1) -15.1%, rgba(23,25,95,1) 71.5% ); 
+        width: 500px;
+        height: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 4px;
+        padding-right: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+        font-size: medium;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(243, 240, 240);
+        font-style: italic;
+        text-align: center;
+        border: 50px;
+        border-radius: 10px;
+}
+
+.conteit .itimagen2{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.it__imagen2{
+    align-self: start;
+        justify-self: start;
+        width: 200px;
+        height: 200px;
+
+}
+
+
+.conteit .itmain2{
+    grid-area: main2;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, 
+     rgba(0,52,89,1) 0%, rgba(0,168,232,1) 90% ); 
+    width: 500px;
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+}
+
+.conteit .itimagen3{
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.it__imagen3{
+    align-content: end;
+    justify-content: end;
+    margin-left: 400px;
+    width: 200px;
+    height: 200px;
+
+}
+
+
+.conteit .itmain3{
+    grid-area: main3;
+    grid-column: 2;
+    grid-row: 4;
+    background-image: linear-gradient(to top, #0c3483 0%,
+     #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    width: 500px;
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+}
+
+.conteabout{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 200px 200px;
+    grid-template-areas: "pres" "web" "it";
+    animation-name: FadeIn;
+    animation-duration: 3s;
+    transition-timing-function: linear;
+
+}
+
+.conteabout .aboutpres{
+    grid-area: pres;
+    color: rgb(69, 69, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    width: 1200px;
+    margin-top: 40px;
+margin-bottom: 10px;
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+}
+.conteabout .aboutmain{
+    grid-area: web;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, 
+    rgba(215,223,252,1) 0%,
+    rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+    width: 700px;
+    height: 160px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(98, 88, 250);
+        font-style: italic;
+        font-weight: bolder;
+        -webkit-text-stroke-color: black;
+        text-shadow: 3px;
+        text-align: center;
+        border-radius: 10px;
 
 
 }
 
-.artihome__texto1{
-grid-area: main;
+.conteabout .aboutmain2{
+    grid-area: it;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, 
+    rgba(215,223,252,1) 0%,
+    rgba(255,255,255,1) 0%, rgba(215,223,252,1) 84% );
+    width: 700px;
+    height: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(98, 88, 250);
+    align-self: center;
+    justify-self: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    
+    font-weight: bolder;
+    text-align: center;
+    -webkit-text-stroke-color: black;
+    text-shadow: 3px;
+    border-radius: 10px;
 }
+
+.contecontact{
+    display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 550px 700px;
+        grid-template-rows: 100px 700px;
+        grid-template-areas: "pres" "main1";
+        animation-name: FadeIn;
+        animation-duration: 3s;
+        transition-timing-function: linear;
+}
+
+.contecontact .contactpres{
+grid-area: pres;
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row: 1;
+color: rgb(69, 69, 241);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: larger;
+width: auto;
+margin-top: 40px;
+margin-bottom: 10px;
+margin-left: 560px;
+margin-right: 500px;
+text-align: justify;
+align-content: flex-end;
+justify-content: flex-end;
+}
+
+.contecontact .contactimagen{
+grid-column: 2;
+grid-row: 2;
+    
+}
+
+.contact__imagen{
+
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 200px;  
+}
+
+
+.contecontact .contactform{
+    grid-area: main1;
+    grid-column: 1;
+    grid-row: 2;
+    background-image: linear-gradient( 109.6deg, 
+    rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    color: azure;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 300x;
+    border-radius: 10px;
+}
+
+
+
