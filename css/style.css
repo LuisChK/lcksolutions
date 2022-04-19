@@ -5,6 +5,7 @@ body{
     background-size: cover;
     background-image: url(../assets/imgs/pexels-asim-alnamat-32997.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     
 
 }
@@ -18,6 +19,13 @@ body{
       opacity: 1;
   }
 }
+
+.logo{
+  margin-top: 05px;
+  width: 400px;
+  height: 80px;
+}
+
 .imagen{
 margin-top: 50px;
 margin-left: 10px;
@@ -27,7 +35,7 @@ margin-left: 10px;
 }
 
   .navbar{
-    background:#063655 !important;
+    background:#151515 !important;
     border-bottom:4px solid #EE445F !important;
   }
   
@@ -57,7 +65,8 @@ margin-left: 10px;
     a:hover{
     color:#FFF !important;
     }
-    li{
+
+    .li{
     position:relative;
     }
   }
@@ -116,7 +125,7 @@ color: #FFF;
     margin-top: 100px;
     margin-bottom: 90px;
     animation-name: FadeIn;
-animation-duration: 3s;
+animation-duration: 5s;
 transition-timing-function: linear;
 }
 
@@ -150,13 +159,13 @@ transition-timing-function: linear;
   margin-top: 100px;
   margin-bottom: 90px;
   animation-name: FadeIn;
-animation-duration: 3s;
+animation-duration: 5s;
 transition-timing-function: linear;
 }
 
 .main{
 
-    background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
     width: fit-content;
     height: fit-content;
     padding-top: 10px;
@@ -164,7 +173,7 @@ transition-timing-function: linear;
     padding-left: 50px;
     padding-right: 50px;
     margin-top: 50px;
-    font-size: medium;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(243, 240, 240);
     font-style: italic;
@@ -172,7 +181,7 @@ transition-timing-function: linear;
     border: 50px;
     border-radius: 10px;
     animation-name: FadeIn;
-    animation-duration: 3s;
+    animation-duration: 5s;
     transition-timing-function: linear;
     
     
@@ -195,22 +204,23 @@ transition-timing-function: linear;
 }
 
 .imagenit{
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     width: 300px;
     height: 300px;
     
 }
 
 .main2{
-    background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+  background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% );
     height: fit-content;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 50px;
-    font-size: medium;
+    font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(243, 240, 240);
     font-style: italic;
@@ -220,12 +230,13 @@ transition-timing-function: linear;
     border-width: 3px;
     border-color: #EE445F;
     animation-name: FadeIn;
-    animation-duration: 3s;
+    animation-duration: 5s;
     transition-timing-function: linear;
 }
 
 .web__imagen1{
-    margin-left: 200px;
+margin-top: 10px;
+margin-left: 200px;
   margin-bottom: 100px;
   width: 300px;
   height: 300px;
@@ -234,7 +245,7 @@ transition-timing-function: linear;
 
 .webmain{
 
-  background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% ); 
   width: fit-content;
   height: fit-content;
   padding-top: 50px;
@@ -251,7 +262,7 @@ transition-timing-function: linear;
   border: 50px;
   border-radius: 10px;
   animation-name: FadeIn;
-  animation-duration: 3s;
+  animation-duration: 5s;
   transition-timing-function: linear;
   
 
@@ -268,10 +279,10 @@ height: 300px;
 
 .webmain2{
 
-  background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+  background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% );
   width: fit-content;
   height: fit-content;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 20px;
   padding-left: 50px;
   padding-right: 50px;
@@ -285,7 +296,7 @@ height: 300px;
   border: 50px;
   border-radius: 10px;
   animation-name: FadeIn;
-  animation-duration: 3s;
+  animation-duration: 5s;
   transition-timing-function: linear;
   
 
@@ -293,7 +304,8 @@ height: 300px;
 }     
 
 .web__imagen3{
-  margin-left: 200px;
+margin-top: 10p;
+margin-left: 200px;
 margin-bottom: 100px;
 width: 300px;
 height: 300px;
@@ -309,7 +321,7 @@ height: 300px;
   padding-bottom: 20px;
   padding-left: 50px;
   padding-right: 50px;
-
+margin-left: 30px;
   margin-top: 50px;
   font-size: large;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -319,7 +331,7 @@ height: 300px;
   border: 50px;
   border-radius: 10px;
   animation-name: FadeIn;
-  animation-duration: 3s;
+  animation-duration: 5s;
   transition-timing-function: linear;
   
 
@@ -328,7 +340,7 @@ height: 300px;
 
 .itmain{
 
-  background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
   width: fit-content;
   height: fit-content;
   padding-top: 50px;
@@ -345,7 +357,7 @@ height: 300px;
   border: 50px;
   border-radius: 10px;
   animation-name: FadeIn;
-  animation-duration: 3s;
+  animation-duration: 5s;
   transition-timing-function: linear;
   
 
@@ -354,6 +366,7 @@ height: 300px;
 .it__imagen{
   margin-left: 200px;
 margin-bottom: 100px;
+
 width: 300px;
 height: 300px;
 
@@ -369,7 +382,7 @@ height: 300px;
 
   .itmain2{
 
-    background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+    background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% );
     width: fit-content;
     height: fit-content;
     padding-top: 50px;
@@ -385,7 +398,7 @@ height: 300px;
     border: 50px;
     border-radius: 10px;
     animation-name: FadeIn;
-    animation-duration: 3s;
+    animation-duration: 5s;
     transition-timing-function: linear;
     
   
@@ -401,7 +414,7 @@ height: 300px;
     padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
-    
+    margin-left: 30px;
     margin-top: 50px;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -411,7 +424,7 @@ height: 300px;
     border: 50px;
     border-radius: 10px;
     animation-name: FadeIn;
-    animation-duration: 3s;
+    animation-duration: 5s;
     transition-timing-function: linear;
     
   
@@ -439,7 +452,7 @@ height: 300px;
     margin-top: 100px;
     margin-bottom: 90px;
     animation-name: FadeIn;
-animation-duration: 3s;
+animation-duration: 5s;
 transition-timing-function: linear;
 }
 
@@ -462,7 +475,7 @@ transition-timing-function: linear;
   border: 50px;
   border-radius: 10px;
   animation-name: FadeIn;
-  animation-duration: 3s;
+  animation-duration: 5s;
   transition-timing-function: linear;
   
 
@@ -471,7 +484,7 @@ transition-timing-function: linear;
 
 .aboutmain2{
 
-  background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+  background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% ); 
   width: fit-content;
   height: fit-content;
   padding-top: 10px;
@@ -488,7 +501,7 @@ transition-timing-function: linear;
   border: 50px;
   border-radius: 10px;
   animation-name: FadeIn;
-  animation-duration: 3s;
+  animation-duration: 5s;
   transition-timing-function: linear;
   
 
@@ -505,15 +518,16 @@ margin-left: 400px;
 
 #contact-form{
   animation-name: FadeIn;
-  animation-duration: 3s;
+  animation-duration: 5s;
   transition-timing-function: linear;
+  
 }
 
 h1 {
   margin-bottom: 40px
 }
 label {
-    color: #333
+    color: rgb(251, 250, 250)
 }
 
 .btn{
@@ -542,10 +556,127 @@ background-color: #EE445F;
 
 
 footer{
-    background-color: #063655;
+    background-color: #151515;
     margin-top: 100px;
     margin-left: 100px;
     margin-right: 100px;
     border-bottom:4px solid #EE445F !important;
     
 }
+
+@media (max-width: 978px) {
+  .web__imagen1 {
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+.logo{
+width: 300px;
+height: 75px;
+
+}
+
+
+main{
+  margin-bottom: 200px;
+}
+
+.imagenweb{
+  margin-bottom: 50px;
+}
+.mainit{
+  margin-top: 50px;
+margin-bottom: -100px;
+}
+
+
+  .webmain{
+    margin-bottom: 50px;
+  }
+  
+  .webmain2{
+margin-bottom: 100px;
+margin-left: 40px;
+padding-left: 50px;
+padding-right: 50px;
+  }
+
+  .web__imagen2 {
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .web__imagen3 {
+    padding:0;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .webmain3{
+    margin-bottom: 50px;
+  }
+
+  .it__imagen{
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .it__imagen2 {
+    align-content: center;
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+
+  .it__imagen3{
+    padding:0;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+
+  .itmain{
+    margin-bottom: 50px;
+  }
+
+  .itmain2{
+    margin-bottom: 100px;
+margin-left: 40px;
+padding-left: 50px;
+padding-right: 50px;
+  }
+
+
+  .itmain3{
+    margin-bottom: 50px;
+    
+  }
+
+
+  body {
+    background-size: cover;
+    background-image: url(../assets/imgs/pexels-asim-alnamat-32997.jpg);
+
+    
+      
+  }
+
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  }
+
+
+}
+
+
+
