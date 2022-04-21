@@ -1,0 +1,681 @@
+
+
+
+body{
+    background-size: cover;
+    background-image: url(../assets/imgs/pexels-asim-alnamat-32997.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+
+@keyframes FadeIn{
+
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.logo{
+  margin-top: 05px;
+  width: 400px;
+  height: 80px;
+}
+
+.imagen{
+margin-top: 50px;
+margin-left: 10px;
+
+
+
+}
+
+  .navbar{
+    background:#151515 !important;
+    border-bottom:4px solid #EE445F !important;
+  }
+  
+  .navbar-brand{
+    font:12px Lato !important;
+    text-transform:uppercase;
+    color:#FFF !important;
+    letter-spacing:2px;
+    margin-top:2px;
+}
+.navbar-toggler{
+
+  color:#EE445F !important;
+
+}
+.nav{
+    margin-bottom:0px;}
+    a{
+    font:500 11px Lato;
+    letter-spacing:2px;
+    padding:16px !important;
+    color:#EE445F !important;
+    text-transform:uppercase;
+    position:relative;
+    z-index:1000;
+    }
+    a:hover{
+    color:#FFF !important;
+    }
+
+    .li{
+    position:relative;
+    }
+  }
+
+    .navbar-inverse .navbar-toggle{
+    border:none;
+  }
+  .collapse{
+color: #FFF;
+
+  }
+  .navbar-collapse{
+    box-shadow:none !important;
+    border:none !important;
+    color: rgb(240, 234, 234);
+  }
+  
+  .navbar-inverse .navbar-toggle:hover{
+    background:transparent !important;
+  }
+  
+  .navbar-inverse .navbar-toggle:focus{
+    background:transparent !important;
+  }
+  
+  .navbar-inverse .navbar-toggle:active{
+    background:transparent !important;
+  }
+  
+  
+  
+  .hover{
+    display:block;
+    position:absolute;
+    width:0%;
+    height:100%;
+    top:0px;
+    left:0px;
+    background:#EE445F !important;
+    z-index:0;
+    opacity:0;
+  }
+  
+  
+
+.pres{
+    
+    color: rgb(233, 233, 244);
+    
+    font-size: x-large;
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+    margin-left: 80px;
+  margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    animation-name: FadeIn;
+animation-duration: 5s;
+transition-timing-function: linear;
+}
+
+.webpres{
+    
+  color: rgb(233, 233, 244);
+  
+  font-size: x-large;
+  text-align: justify;
+  align-self: center;
+  justify-self: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  animation-name: FadeIn;
+animation-duration: 3s;
+transition-timing-function: linear;
+}
+
+.itpres{
+    
+  color: rgb(233, 233, 244);
+  
+  font-size: x-large;
+  text-align: justify;
+  align-self: center;
+  justify-self: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  animation-name: FadeIn;
+animation-duration: 5s;
+transition-timing-function: linear;
+}
+
+.main{
+
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+    animation-name: FadeIn;
+    animation-duration: 5s;
+    transition-timing-function: linear;
+    
+    
+    
+
+    
+    
+}      
+        
+        
+
+
+
+.imagenweb{
+    
+    margin-bottom: 100px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.imagenit{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 300px;
+    height: 300px;
+    
+}
+
+.main2{
+  background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% );
+    height: fit-content;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #EE445F;
+    animation-name: FadeIn;
+    animation-duration: 5s;
+    transition-timing-function: linear;
+}
+
+.web__imagen1{
+margin-top: 10px;
+margin-left: 200px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 300px;
+  
+}
+
+.webmain{
+
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% ); 
+  width: fit-content;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+  margin-top: 50px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 240, 240);
+  font-style: italic;
+  text-align: center;
+  border: 50px;
+  border-radius: 10px;
+  animation-name: FadeIn;
+  animation-duration: 5s;
+  transition-timing-function: linear;
+  
+
+  
+}     
+
+.web__imagen2{
+margin-bottom: 100px;
+margin-left: 50px;
+width: 300px;
+height: 300px;
+
+}
+
+.webmain2{
+
+  background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% );
+  width: fit-content;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+  margin-top: 50px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 240, 240);
+  font-style: italic;
+  text-align: center;
+  border: 50px;
+  border-radius: 10px;
+  animation-name: FadeIn;
+  animation-duration: 5s;
+  transition-timing-function: linear;
+  
+
+  
+}     
+
+.web__imagen3{
+margin-top: 10p;
+margin-left: 200px;
+margin-bottom: 100px;
+width: 300px;
+height: 300px;
+
+}
+
+.webmain3{
+
+  background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+  width: fit-content;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+margin-left: 30px;
+  margin-top: 50px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 240, 240);
+  font-style: italic;
+  text-align: center;
+  border: 50px;
+  border-radius: 10px;
+  animation-name: FadeIn;
+  animation-duration: 5s;
+  transition-timing-function: linear;
+  
+
+  
+}    
+
+.itmain{
+
+  background-image: linear-gradient( 109.6deg,  rgba(0,0,0,1) 11.2%, rgba(11,132,145,1) 91.1% );
+  width: fit-content;
+  height: fit-content;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+  margin-top: 50px;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 240, 240);
+  font-style: italic;
+  text-align: center;
+  border: 50px;
+  border-radius: 10px;
+  animation-name: FadeIn;
+  animation-duration: 5s;
+  transition-timing-function: linear;
+  
+
+  
+}     
+.it__imagen{
+  margin-left: 200px;
+margin-bottom: 100px;
+width: 300px;
+height: 300px;
+
+}
+
+.it__imagen2{
+  margin-bottom: 100px;
+  margin-left: 50px;
+  width: 300px;
+  height: 300px;
+  
+  }
+
+  .itmain2{
+
+    background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% );
+    width: fit-content;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+    animation-name: FadeIn;
+    animation-duration: 5s;
+    transition-timing-function: linear;
+    
+  
+    
+  }     
+
+  .itmain3{
+
+    background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+    width: fit-content;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(243, 240, 240);
+    font-style: italic;
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+    animation-name: FadeIn;
+    animation-duration: 5s;
+    transition-timing-function: linear;
+    
+  
+    
+  }    
+
+  .it__imagen3{
+    margin-left: 200px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 300px;
+  
+  }
+
+  .aboutpres{
+    
+    color: rgb(233, 233, 244);
+    
+    font-size: x-large;
+    text-align: justify;
+    align-self: center;
+    justify-self: center;
+    margin-left: 80px;
+  margin-right: 80px;
+    margin-top: 100px;
+    margin-bottom: 90px;
+    animation-name: FadeIn;
+animation-duration: 5s;
+transition-timing-function: linear;
+}
+
+.aboutmain{
+
+  background-image:radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% ); 
+  width: fit-content;
+  height: fit-content;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 240, 240);
+  font-style: italic;
+  text-align: center;
+  border: 50px;
+  border-radius: 10px;
+  animation-name: FadeIn;
+  animation-duration: 5s;
+  transition-timing-function: linear;
+  
+
+  
+}     
+
+.aboutmain2{
+
+  background-image: linear-gradient( 72.3deg,  rgba(29,7,64,1) 8.5%, rgb(173, 46, 76) 92.2% ); 
+  width: fit-content;
+  height: fit-content;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  
+  margin-top: 100px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 240, 240);
+  font-style: italic;
+  text-align: center;
+  border: 50px;
+  border-radius: 10px;
+  animation-name: FadeIn;
+  animation-duration: 5s;
+  transition-timing-function: linear;
+  
+
+  
+}     
+
+.about__imagen{
+max-width: fit-content;
+height: 160px;
+margin-left: 400px;
+
+
+}
+
+#contact-form{
+  animation-name: FadeIn;
+  animation-duration: 5s;
+  transition-timing-function: linear;
+  
+}
+
+h1 {
+  margin-bottom: 40px
+}
+label {
+    color: rgb(251, 250, 250)
+}
+
+.btn{
+  margin-top: 20px;
+  margin-left: 50px;
+background-color: #EE445F;
+
+}
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px
+}
+
+
+footer{
+    background-color: #151515;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom:4px solid #EE445F;
+    
+}
+
+@media (max-width: 978px) {
+  .web__imagen1 {
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+.logo{
+width: 300px;
+height: 75px;
+
+}
+
+
+main{
+  margin-bottom: 200px;
+}
+
+.imagenweb{
+  margin-bottom: 50px;
+}
+.mainit{
+  margin-top: 50px;
+margin-bottom: -100px;
+}
+
+
+  .webmain{
+    margin-bottom: 50px;
+  }
+  
+  .webmain2{
+margin-bottom: 100px;
+margin-left: 40px;
+padding-left: 50px;
+padding-right: 50px;
+  }
+
+  .web__imagen2 {
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .web__imagen3 {
+    padding:0;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .webmain3{
+    margin-bottom: 50px;
+  }
+
+  .it__imagen{
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .it__imagen2 {
+    align-content: center;
+    padding:0;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+
+  .it__imagen3{
+    padding:0;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+  }
+
+  .itmain{
+    margin-bottom: 50px;
+  }
+
+  .itmain2{
+    margin-bottom: 100px;
+margin-left: 40px;
+padding-left: 50px;
+padding-right: 50px;
+  }
+
+
+  .itmain3{
+    margin-bottom: 50px;
+    
+  }
+
+
+  body {
+    background-size: cover;
+    background-image: url(../assets/imgs/pexels-asim-alnamat-32997.jpg);
+
+    
+      
+  }
+
+  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom:0;
+  }
+
+
+}
+
+
+
