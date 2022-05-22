@@ -336,20 +336,19 @@ footer {
 
   .webmain, .webmain3, .itmain, .itmain3 {
     margin-bottom: 50px;
+    margin-left: -80px;
   }
 
   .webmain2, .itmain2 {
     margin-bottom: 100px;
-    margin-left: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin-left: 50px;
   }
 
   .web__imagen2, .it__imagen2 {
-    padding: 0;
     margin-top: 10px;
     margin-left: 0;
     margin-bottom: 10px;
+    margin-right: 50px;
   }
 
   .web__imagen3 {
@@ -360,6 +359,7 @@ footer {
 
   .webmain3, .itmain3 {
     margin-bottom: 50px;
+    margin-left: 10px;
   }
 
   .it__imagen {
