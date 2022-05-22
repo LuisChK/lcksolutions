@@ -323,6 +323,7 @@ footer {
 
   main {
     margin-bottom: 200px;
+    margin-left: 50px;
   }
 
   .imagenweb, .imagenit {
@@ -336,12 +337,12 @@ footer {
 
   .webmain, .webmain3, .itmain, .itmain3 {
     margin-bottom: 50px;
-    margin-left: -80px;
+    margin-left: -50px;
   }
 
   .webmain2, .itmain2 {
     margin-bottom: 100px;
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .web__imagen2, .it__imagen2 {
